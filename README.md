@@ -3,8 +3,10 @@
 
 <img width="447" height="208" alt="image" src="https://github.com/user-attachments/assets/19f518b7-b90f-497d-9f8f-071c98b7dfdc" />
  O(n)
+ 
 <img width="506" height="266" alt="image" src="https://github.com/user-attachments/assets/928ab661-2361-4eb2-962c-f20c8c016d5c" />
  O(logn)
+ 
 <img width="515" height="245" alt="image" src="https://github.com/user-attachments/assets/ecc1d0a1-6586-42ab-8696-0acf121418c8" />
  O(logn)
 
