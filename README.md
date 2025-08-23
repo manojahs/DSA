@@ -88,7 +88,42 @@ class Program
 
 }
 
+Binary Search using Recursion
+--------------------------------
+// See https://aka.ms/new-console-template for more information
+using System;
+using System.Reflection.Metadata.Ecma335;
 
+
+class Program
+{
+   public static void Main()
+    {
+        int[] a = { 4,5,8,20,24,30 };
+        int key = 5;
+        int n = a.Length;
+        int L = 0;
+        int R = n - 1;
+        int result = BinarySearch(a, key, L,R);
+        Console.WriteLine(result);
+
+    }
+
+    public static int BinarySearch(int[] arr , int key , int L,int R)
+    {
+            if (L > R)
+                 return -1;
+       
+            int m = (L + R) / 2;
+            if (key == arr[m])
+                return m;
+            if (key < arr[m])
+              return  BinarySearch(arr, key, L, m - 1);
+
+            else
+              return  BinarySearch(arr, key, m + 1, R);       
+    }
+}
 
 
 
