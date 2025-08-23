@@ -7,10 +7,6 @@ Linear Search / Sequence Search
 ----------
 Key point: array, length, key need to be search
 
-
-
-
-
 using System;
 using System.Reflection.Metadata.Ecma335;
 
