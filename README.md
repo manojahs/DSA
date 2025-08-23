@@ -1,4 +1,7 @@
 # DSA
+
+<img width="502" height="211" alt="image" src="https://github.com/user-attachments/assets/f76e0533-7716-47e9-9288-ddbe78c8e7ee" />
+
 ```
 Linear Search / Sequence Search
 ----------
@@ -6,7 +9,6 @@ Key point: array, length, key need to be search
 
 
 
-<img width="502" height="211" alt="image" src="https://github.com/user-attachments/assets/7f8bbc8e-5839-4318-a1c7-7828058025ff" />
 
 
 using System;
