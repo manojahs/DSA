@@ -5,7 +5,9 @@ Linear Search / Sequence Search
 Key point: array, length, key need to be search
 
 
-<img width="502" height="211" alt="image" src="https://github.com/user-attachments/assets/2774a217-2732-46a9-a13a-43ca35dae55c" />
+
+<img width="502" height="211" alt="image" src="https://github.com/user-attachments/assets/7f8bbc8e-5839-4318-a1c7-7828058025ff" />
+
 
 using System;
 using System.Reflection.Metadata.Ecma335;
