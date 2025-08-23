@@ -1,7 +1,7 @@
 # DSA
 
 <img width="502" height="211" alt="image" src="https://github.com/user-attachments/assets/f76e0533-7716-47e9-9288-ddbe78c8e7ee" /> O(n)
-<img width="533" height="285" alt="image" src="https://github.com/user-attachments/assets/3fec099c-f026-493b-b848-691072a32490" /> O(n)
+<img width="533" height="285" alt="image" src="https://github.com/user-attachments/assets/3fec099c-f026-493b-b848-691072a32490" /> O(logn)
 <img width="517" height="248" alt="image" src="https://github.com/user-attachments/assets/a66b21c7-b78d-4902-8a9d-04f554cb89d7" /> O(logn)
 
 
