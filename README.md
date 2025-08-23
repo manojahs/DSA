@@ -25,20 +25,14 @@ class Program
 
     public static int LinearSearch(int[] arr , int n , int key)
     {
-        int ni = 0;
          for(int i=0;i<n;i++)
         {
             if (arr[i] ==key)
             {
-                 ni=i;
+                 return i;
             }
-            else
-            {
-                return ni =-1;
-            }
-
         }
-        return ni;
+        return -1;
     }
 
 }
