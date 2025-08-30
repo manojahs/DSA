@@ -140,6 +140,51 @@ Sorting Algo
 Finding the smallest element in array and place it in first element then look for another small value in remaining array and soon
 
 
+using System;
+
+class Program
+{
+
+    public void SelectionSort(int[] a, int n)
+    {
+        for(int i=0;i<n-1;i++)
+        {
+            int pos = i;
+            for (int j=i+1; j<n; j++)
+            {
+                if (a[pos] > a[j])
+                {
+                    pos = j;
+                    int temp = a[i];
+                    a[i] = a[pos];
+                    a[pos] = temp;
+                }
+            }
+        }
+    }
+
+    public void Display(int[] a ,int n)
+    {
+        for(int i =0;i<n;i++)
+        {
+            Console.Write(a[i] + " ");
+        }
+        Console.WriteLine();
+    }
+
+    static void Main(string[] args)
+    {
+        Program p = new Program();
+        int[] a = { 4, 2, 5, 6, 1,10,0,3 };
+        Console.WriteLine("Orig Array");
+        p.Display(a, a.Length);
+        p.SelectionSort(a, a.Length);
+        Console.WriteLine("sorted Array");
+        p.Display(a, a.Length);
+        Console.ReadKey();
+    }
+}
+
 
 
 
