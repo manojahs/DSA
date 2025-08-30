@@ -13,6 +13,9 @@
 
 <img width="518" height="268" alt="image" src="https://github.com/user-attachments/assets/e947ab76-e6fb-4987-b268-4ac6f2bf8019" />
 
+<img width="526" height="244" alt="image" src="https://github.com/user-attachments/assets/c681bcf3-c269-4544-89f4-63bfff2593ae" />
+
+
 
 ```
 Linear Search / Sequence Search
