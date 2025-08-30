@@ -11,6 +11,7 @@
 
 <img width="519" height="283" alt="image" src="https://github.com/user-attachments/assets/bc464c1f-069f-4f4b-a466-1faf9cba8b94" />
 
+<img width="518" height="268" alt="image" src="https://github.com/user-attachments/assets/e947ab76-e6fb-4987-b268-4ac6f2bf8019" />
 
 
 ```
@@ -133,6 +134,10 @@ class Program
     }
 }
 
+Sorting Algo
+---------
+ 1) Selection Sort (Unstable algo)
+Finding the smallest element in array and place it in first element then look for another small value in remaining array and soon
 
 
 
