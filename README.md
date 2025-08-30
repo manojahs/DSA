@@ -9,6 +9,9 @@
  
 <img width="515" height="245" alt="image" src="https://github.com/user-attachments/assets/ecc1d0a1-6586-42ab-8696-0acf121418c8" />
 
+<img width="519" height="283" alt="image" src="https://github.com/user-attachments/assets/bc464c1f-069f-4f4b-a466-1faf9cba8b94" />
+
+
 
 ```
 Linear Search / Sequence Search
