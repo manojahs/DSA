@@ -383,6 +383,74 @@ class Program
 }
 
  
+//Quick Sort
+-----------------
+
+
+using System;
+
+class Program
+{
+    public static void QuickSort(int[] arr, int low, int high)
+    {
+        if (low < high)
+        {
+            int pi = Partition(arr, low, high);
+
+            // Recursively sort elements before and after partition
+            QuickSort(arr, low, pi - 1);
+            QuickSort(arr, pi + 1, high);
+        }
+    }
+
+    private static int Partition(int[] arr, int low, int high)
+    {
+        int pivot = arr[low]; // 👈 pivot is the FIRST element
+        int i = low + 1;
+        int j = high;
+
+        while (true)
+        {
+            // Move i forward until finding an element >= pivot
+            while (i <= j && arr[i] <= pivot) i++;
+
+            // Move j backward until finding an element <= pivot
+            while (i <= j && arr[j] >= pivot) j--;
+
+            if (i <= j)
+            {
+                Swap(arr, i, j);
+            }
+            else
+            {
+                break;
+            }
+        }
+
+        // Place pivot in correct position
+        Swap(arr, low, j);
+
+        return j; // return pivot index
+    }
+
+    private static void Swap(int[] arr, int i, int j)
+    {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+
+    static void Main(string[] args)
+    {
+        int[] numbers = { 64, 25, 12, 22, 11, 90, 5 };
+
+        Console.WriteLine("Original Array: " + string.Join(", ", numbers));
+
+        QuickSort(numbers, 0, numbers.Length - 1);
+
+        Console.WriteLine("Sorted Array: " + string.Join(", ", numbers));
+    }
+}
 
 
 
