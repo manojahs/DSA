@@ -191,6 +191,54 @@ class Program
     }
 }
 
+//insertion sort
+---------------------
+
+using System;
+
+class Program
+{
+
+    public void InsertionSort(int[] a, int n)
+
+    {
+        for(int i=1;i<n;i++)
+        {
+            int cValue = a[i];
+            int pos = i;
+            while(pos>0 && a[pos-1]>cValue)
+            {
+                a[pos] = a[pos - 1];
+                pos--;
+                a[pos] = cValue;
+            }
+        }
+    }
+
+    public void Display(int[] a ,int n)
+    {
+        for(int i =0;i<n;i++)
+        {
+            Console.Write(a[i] + " ");
+        }
+        Console.WriteLine();
+    }
+
+    static void Main(string[] args)
+    {
+        Program p = new Program();
+        int[] a = { 4, 2, 5, 6, 1,10,0,3 };
+        Console.WriteLine("Orig Array");
+        p.Display(a, a.Length);
+        p.InsertionSort(a, a.Length);
+        Console.WriteLine("sorted Array");
+
+        p.Display(a, a.Length);
+        Console.ReadKey();
+    }
+}
+
+
 //Bubble Sort
 ---------------
 
@@ -200,7 +248,7 @@ using System.Runtime.CompilerServices;
 class Program
 {
 
-    public void SelectionSort(int[] a, int n)
+    public void BubbleSort(int[] a, int n)
 
     {
         for(int i=n-1;i>=0;i--)
@@ -233,7 +281,7 @@ class Program
         int[] a = { 4, 2, 5, 6, 1 };
         Console.WriteLine("Orig Array");
         p.Display(a, a.Length);
-        p.SelectionSort(a, a.Length);
+        p.BubbleSort(a, a.Length);
         Console.WriteLine("sorted Array");
 
         p.Display(a, a.Length);
