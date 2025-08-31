@@ -294,7 +294,95 @@ class Program
     }
 }
 
+// Merge Sort
+--------------------
+using System;
+using System.Runtime.CompilerServices;
 
+class Program
+{
+
+    public void MergeSortAlgo(int[] a, int left,int right)
+
+    {
+        if(left<right)
+        { 
+        int mid = (left + right) / 2;
+        MergeSortAlgo(a, left, mid);
+        MergeSortAlgo(a, mid + 1, right);
+        MergeSort(a, left, mid, right);
+        }
+    }
+
+    public void MergeSort(int[] a ,int left,int mid,int right)
+    {
+        int i =left, 
+        j=mid+1,k;
+         k = i;
+
+        int[] b = new int[a.Length];
+
+        while(i<=mid && j<=right)
+        {
+            if (a[i] < a[j])
+            {
+                b[k] = a[i];
+                i++;
+            }
+            else
+            {
+                b[k] = a[j];
+                j++;
+            }
+            k++;
+
+        }
+        while(i<=mid)
+        {
+            b[k] = a[i];
+            i++;
+            k++;
+        }
+        while(j<=right)
+        {
+            b[k] = a[j];
+            j++;
+            k++;
+        }
+
+        for(int x = left;x<right+1;x++)
+        {
+            a[x] = b[x];
+        }
+
+
+
+    }
+
+    public void Display(int[] a, int n)
+    {
+        for (int i = 0; i < n; i++)
+        {
+            Console.Write(a[i] + " ");
+        }
+        Console.WriteLine();
+    }
+
+    static void Main(string[] args)
+    {
+        Program p = new Program();
+        int[] a = { 4, 2, 5, 6, 1 };
+        Console.WriteLine("Orig Array");
+        p.Display(a, a.Length);
+        p.MergeSortAlgo(a, 0, a.Length-1);
+        Console.WriteLine("sorted Array");
+
+        p.Display(a, a.Length);
+        Console.ReadKey();
+    }
+}
+
+ 
 
 
 
