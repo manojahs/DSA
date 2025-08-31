@@ -19,6 +19,7 @@
 
 
 
+
 ```
 Linear Search / Sequence Search
 ----------
@@ -190,6 +191,55 @@ class Program
     }
 }
 
+//Bubble Sort
+---------------
+
+using System;
+using System.Runtime.CompilerServices;
+
+class Program
+{
+
+    public void SelectionSort(int[] a, int n)
+
+    {
+        for(int i=n-1;i>=0;i--)
+        {
+            for(int j=0;j<i;j++)
+            {
+                if (a[j] > a[j+1])
+                {
+                    int temp = a[j];
+                    a[j] = a[j + 1];
+                    a[j + 1] = temp; 
+                }
+            }
+          
+        }
+    }
+
+    public void Display(int[] a ,int n)
+    {
+        for(int i =0;i<n;i++)
+        {
+            Console.Write(a[i] + " ");
+        }
+        Console.WriteLine();
+    }
+
+    static void Main(string[] args)
+    {
+        Program p = new Program();
+        int[] a = { 4, 2, 5, 6, 1 };
+        Console.WriteLine("Orig Array");
+        p.Display(a, a.Length);
+        p.SelectionSort(a, a.Length);
+        Console.WriteLine("sorted Array");
+
+        p.Display(a, a.Length);
+        Console.ReadKey();
+    }
+}
 
 
 
