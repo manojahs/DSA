@@ -1,4 +1,4 @@
-# DSA
+# DSA - Searching and Sorting Algo
 
 
 <img width="447" height="208" alt="image" src="https://github.com/user-attachments/assets/19f518b7-b90f-497d-9f8f-071c98b7dfdc" />
