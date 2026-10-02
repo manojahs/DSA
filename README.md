@@ -1,3 +1,22 @@
+```
+
+Time Complexity (TC)
+------------------
+The rate at which time taken increases with respect to input size
+TC
+1) Always check for worst case
+2) Avoid Constants
+3) Avoid Lower values
+
+
+
+
+
+
+
+
+
+```
 # DSA - Searching and Sorting Algo
 
 
