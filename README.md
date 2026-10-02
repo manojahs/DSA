@@ -12,7 +12,7 @@ Big(O) is the worst case complexity and its upper bound.
 Theta is the Avg bound.
 Omega is the Lower bound.
 
-
+Time complexity always calculated in Big(O) Notation.
 
 
 
