@@ -14,7 +14,13 @@ Omega is the Lower bound.
 
 Time complexity always calculated in Big(O) Notation.
 
-
+Space Complexity
+------------------
+Its the memory space that your program takes.
+Here also we are using Big(O) Notation.
+Its the  Auxilary space + input space
+Auxilary space: space that you are taking to solve the problem
+input space: space that you have taken to store the input
 
 
 
