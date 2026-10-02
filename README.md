@@ -25,7 +25,7 @@ input space: space that you have taken to store the input
 for ex: a and b are 2 variables to store that value we use c
 c = a+b
 so here a & b are input space and here we are using c as extra variable to solve the problem so it will become auxilary space.
-
+it become big O(n)
 
 
 
