@@ -8,6 +8,11 @@ TC
 2) Avoid Constants
 3) Avoid Lower values
 
+Big(O) is the worst case complexity and its upper bound.
+Theta is the Avg bound.
+Omega is the Lower bound.
+
+
 
 
 
