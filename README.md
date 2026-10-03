@@ -1,5 +1,4 @@
 ```
-
 Time Complexity (TC)
 ------------------
 The rate at which time taken increases with respect to input size
